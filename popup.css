@@ -1,0 +1,50 @@
+p {
+  margin-bottom: 0px !important;
+}
+
+html {
+  min-height: 10em;
+  min-width: 20em;
+}
+
+body {
+  padding: 5px;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  max-height: 20em;
+  overflow-y: auto;
+}
+
+li {
+  height: 2em;
+}
+
+li:hover {
+  background-color: #e9ecef;
+}
+
+.black {
+  color: black;
+}
+
+span.badge:active {
+  background-color: #dee2e6 !important;
+}
+
+.list-group-item {
+  white-space: nowrap;
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+}
+
+.no-data {
+  height: 7em;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
